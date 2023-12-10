@@ -12,7 +12,7 @@ function NavbarMenu() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link><Link to="/addproduct">Add a new product</Link></Nav.Link>
+            <Link to="/addproduct">Add a new product</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
